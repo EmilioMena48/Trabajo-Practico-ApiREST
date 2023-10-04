@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - EjApiRestApplicationTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>EjApiRestApplicationTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.utn.demo.html">com.utn.demo</a> &gt; EjApiRestApplicationTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">1.212s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">contextLoads()</td>
+<td class="success">1.212s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>10:34:00.257 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.utn.demo.EjApiRestApplicationTests]: EjApiRestApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+10:34:00.394 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.utn.demo.EjApiRestApplication for test class com.utn.demo.EjApiRestApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.1.4)
+
+2023-10-04T10:34:00.968-03:00  INFO 9896 --- [    Test worker] com.utn.demo.EjApiRestApplicationTests   : Starting EjApiRestApplicationTests using Java 18.0.2.1 with PID 9896 (started by Emilio in E:\Users\Emilio\Documents\tp-api.fake\demo)
+2023-10-04T10:34:00.970-03:00  INFO 9896 --- [    Test worker] com.utn.demo.EjApiRestApplicationTests   : No active profile set, falling back to 1 default profile: &quot;default&quot;
+2023-10-04T10:34:02.377-03:00  INFO 9896 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-04T10:34:02.476-03:00  INFO 9896 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 88 ms. Found 4 JPA repository interfaces.
+2023-10-04T10:34:03.176-03:00  INFO 9896 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-04T10:34:03.274-03:00  INFO 9896 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-10-04T10:34:03.279-03:00  INFO 9896 --- [    Test worker] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-10-04T10:34:03.487-03:00  INFO 9896 --- [    Test worker] o.h.e.boot.internal.EnversServiceImpl    : Envers integration enabled? : true
+2023-10-04T10:34:03.524-03:00  INFO 9896 --- [    Test worker] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-04T10:34:03.956-03:00  INFO 9896 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-04T10:34:03.985-03:00  INFO 9896 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-04T10:34:04.270-03:00  INFO 9896 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:./betodb user=SA
+2023-10-04T10:34:04.272-03:00  INFO 9896 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-04T10:34:04.804-03:00  INFO 9896 --- [    Test worker] o.h.e.c.i.m.AuditMetadataGenerator       : Adding properties for entity: com.utn.demo.entities.Autor
+2023-10-04T10:34:04.806-03:00  INFO 9896 --- [    Test worker] o.h.e.c.i.m.AuditMetadataGenerator       : Adding properties for entity: com.utn.demo.entities.Libro
+2023-10-04T10:34:04.810-03:00  INFO 9896 --- [    Test worker] o.h.e.c.i.m.AuditMetadataGenerator       : Adding properties for entity: com.utn.demo.entities.Persona
+2023-10-04T10:34:04.811-03:00  INFO 9896 --- [    Test worker] o.h.e.c.i.m.AuditMetadataGenerator       : Adding properties for entity: com.utn.demo.entities.Domicilio
+2023-10-04T10:34:04.812-03:00  INFO 9896 --- [    Test worker] o.h.e.c.i.m.AuditMetadataGenerator       : Adding properties for entity: com.utn.demo.entities.Localidad
+2023-10-04T10:34:04.818-03:00  INFO 9896 --- [    Test worker] .e.b.i.AdditionalJaxbMappingProducerImpl : Adding JAXB document mapping
+2023-10-04T10:34:05.218-03:00  INFO 9896 --- [    Test worker] org.hibernate.envers.boot                : HHH90005601: Envers-generated HBM mapping...
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
+&lt;hibernate-mapping auto-import=&quot;false&quot; xmlns=&quot;http://www.hibernate.org/xsd/orm/hbm&quot;&gt;
+    &lt;class discriminator-value=&quot;Autor&quot; table=&quot;autor_AUD&quot; entity-name=&quot;com.utn.demo.entities.Autor_AUD&quot; abstract=&quot;false&quot;&gt;
+        &lt;composite-id name=&quot;originalId&quot;&gt;
+            &lt;key-property name=&quot;id&quot;&gt;
+                &lt;column name=&quot;id&quot;/&gt;
+                &lt;type name=&quot;long&quot;&gt;
+                    &lt;param name=&quot;org.hibernate.type.ParameterType.primaryKey&quot;&gt;false&lt;/param&gt;
+                    &lt;param name=&quot;org.hibernate.type.ParameterType.dynamic&quot;&gt;true&lt;/param&gt;
+                    &lt;param name=&quot;org.hibernate.type.ParameterType.returnedClass&quot;&gt;java.lang.Long&lt;/param&gt;
+                    &lt;param name=&quot;org.hibernate.type.ParameterType.accessType&quot;&gt;field&lt;/param&gt;
+                    &lt;param name=&quot;org.hibernate.type.ParameterType.entityClass&quot;&gt;com.utn.demo.entities.Autor&lt;/param&gt;
+                    &lt;param name=&quot;org.hibernate.type.ParameterType.propertyName&quot;&gt;id&lt;/param&gt;
+                &lt;/type&gt;
+            &lt;/key-property&gt;
+            &lt;key-many-to-one class=&quot;org.hibernate.envers.DefaultRevisionEntity&quot; name=&quot;REV&quot;&gt;
+                &lt;column name=&quot;REV&quot;/&gt;
+            &lt;/key-many-to-one&gt;
+        &lt;/composite-id&gt;
+        &lt;property insert=&quot;true&quot; name=&quot;REVTYPE&quot; type=&quot;org.hibernate.envers.internal.entities.RevisionTypeType&quot; update=&quot;false&quot;/&gt;
+        &lt;property insert=&quot;true&quot; name=&quot;apellido&quot; update=&quot;false&quot;&gt;
+            &lt;column length=&quot;255&quot; name=&quot;apellido&quot;/&gt;
+            &lt;type name=&quot;string&quot;&gt;
+                &lt;param name=&quot;org.hibernate.type.ParameterType.primaryKey&quot;&gt;false&lt;/param&gt;
+                &lt;param name=&quot;org.hibernate.type.ParameterType.dynamic&quot;&gt;true&lt;/param&gt;
+                &lt;param name=&quot;org.hibernate.type.ParameterType.returnedClass&quot;&gt;java.lang.String&lt;/param&gt;
+                &lt;param name=&quot;org.hibernate.type.ParameterType.accessType&quot;&gt;field&lt;/param&gt;
+                &lt;param name=&quot;org.hibernate.type.ParameterType.entityClass&quot;&gt;com.utn.demo.entities.Autor&lt;/param&gt;
+                &lt;param name=&quot;org.hibernate.type.ParameterType.propertyName&quot;&gt;apellido&lt;/param&gt;
+            &lt;/type&gt;
+        &lt;/property&gt;
+        &lt;property insert=&quot;true&quot; name=&quot;biografia&quot; update=&quot;false&quot;&gt;
+            &lt;column length=&quot;1500&quot; name=&quot;biografia&quot;/&gt;
+            &lt;type name=&quot;string&quot;&gt;
+                &lt;param name=&quot;org.hibernate.type.ParameterType.primaryKey&quot;&gt;false&lt;/param&gt;
+                &lt;param name=&quot;org.hibernate.type.ParameterType.dynamic&quot;&gt;true&lt;/param&gt;
+                &lt;param name=&quot;org.hibernate.type.ParameterType.returnedClass&quot;&gt;java.lang.String&lt;/param&gt;
+                &lt;param name=&quot;org.hibernate.type.ParameterType.accessType&quot;&gt;field&lt;/param&gt;
+                &lt;param name=&quot;org.hibernate.type.ParameterType.entityClass&quot;&gt;com.utn.demo.entities.Autor&lt;/param&gt;
+                &lt;param name=&quot;org.hibernate.type.ParameterType.propertyName&quot;&gt;biografia&lt;/param&gt;
+            &lt;/type&gt;
+        &lt;/property&gt;
+        &lt;property insert=&quot;true&quot; name=&quot;nombre&quot; update=&quot;false&quot;&gt;
+            &lt;column length=&quot;255&quot; name=&quot;nombre&quot;/&gt;
+            &lt;type name=&quot;string&quot;&gt;
+                &lt;param name=&quot;org.hibernate.type.ParameterType.primaryKey&quot;&gt;false&lt;/param&gt;
+                &lt;param name=&quot;org.hibernate.type.ParameterType.dynamic&quot;&gt;true&lt;/param&gt;
+                &lt;param name=&quot;org.hibernate.type.ParameterType.returnedClass&quot;&gt;java.lang.String&lt;/param&gt;
+                &lt;param name=&quot;org.hibernate.type.ParameterType.accessType&quot;&gt;field&lt;/param&gt;
+                &lt;param name=&quot;org.hibernate.type.ParameterType.entityClass&quot;&gt;com.utn.demo.entities.Autor&lt;/param&gt;
+                &lt;param name=&quot;org.hibernate.type.ParameterType.propertyName&quot;&gt;nombre&lt;/param&gt;
+            &lt;/type&gt;
+        &lt;/property&gt;
+    &lt;/class&gt;
+&lt;/hibernate-mapping&gt;
+
+2023-10-04T10:34:05.240-03:00  INFO 9896 --- [    Test worker] .e.b.i.AdditionalJaxbMappingProducerImpl : Adding JAXB document mapping
+2023-10-04T10:34:05.317-03:00  INFO 9896 --- [    Test worker] org.hibernate.envers.boot                : HHH90005601: Envers-generated HBM mapping...
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
+&lt;hibernate-mapping auto-import=&quot;false&quot; xmlns=&quot;http://www.hibernate.org/xsd/orm/hbm&quot;&gt;
+    &lt;class discriminator-value=&quot;Libro&quot; table=&quot;libro_AUD&quot; entity-name=&quot;com.utn.demo.entities.Libro_AUD&quot; abstract=&quot;false&quot;&gt;
+        &lt;composite-id name=&quot;originalId&quot;&gt;
+            &lt;key-property name=&quot;id&quot;&gt;
+                &lt;column name=&quot;id&quot;/&gt;
+                &lt;type name=&quot;long&quot;&gt;
+                    &lt;param name=&quot;org.hibernate.type.ParameterType.primaryKey&quot;&gt;false&lt;/param&gt;
+                    &lt;param name=&quot;org.hibernate.type.ParameterType.dynamic&quot;&gt;true&lt;/param&gt;
+                    &lt;param name=&quot;org.hibernate.type.ParameterType.returnedClass&quot;&gt;java.lang.Long&lt;/param&gt;
+                    &lt;param name=&quot;org.hibernate.type.ParameterType.accessType&quot;&gt;field&lt;/param&gt;
+                    &lt;param name=&quot;org.hibernate.type.ParameterType.entityClass&quot;&gt;com.utn.demo.entities.Libro&lt;/param&gt;
+                    &lt;param name=&quot;org.hibernate.type.ParameterType.propertyName&quot;&gt;id&lt;/param&gt;
+                &lt;/type&gt;
+            &lt;/key-property&gt;
+            &lt;key-many-to-one class=&quot;org.hibernate.envers.DefaultRevisionEntity&quot; name=&quot;REV&quot;&gt;
+                &lt;column name=&quot;REV&quot;/&gt;
+            &lt;/key-many-to-one&gt;
+        &lt;/composite-id&gt;
+        &lt;property insert=&quot;true&quot; name=&quot;REVTYPE&quot; type=&quot;org.hibernate.envers.internal.entities.RevisionTypeType&quot; update=&quot;false&quot;/&gt;
+        &lt;property insert=&quot;true&quot; name=&quot;fecha&quot; type=&quot;integer&quot; update=&quot;false&quot;&gt;
+            &lt;column length=&quot;255&quot; name=&quot;fecha&quot;/&gt;
+        &lt;/property&gt;
+        &lt;property insert=&quot;true&quot; name=&quot;genero&quot; update=&quot;false&quot;&gt;
+            &lt;column length=&quot;255&quot; name=&quot;genero&quot;/&gt;
+            &lt;type name=&quot;string&quot;&gt;
+                &lt;param name=&quot;org.hibernate.type.ParameterType.primaryKey&quot;&gt;false&lt;/param&gt;
+                &lt;param name=&quot;org.hibernate.type.ParameterType.dynamic&quot;&gt;true&lt;/param&gt;
+                &lt;param name=&quot;org.hibernate.type.ParameterType.returnedClass&quot;&gt;java.lang.String&lt;/param&gt;
+                &lt;param name=&quot;org.hibernate.type.ParameterType.accessType&quot;&gt;field&lt;/param&gt;
+                &lt;param name=&quot;org.hibernate.type.ParameterType.entityClass&quot;&gt;com.utn.demo.entities.Libro&lt;/param&gt;
+                &lt;param name=&quot;org.hibernate.type.ParameterType.propertyName&quot;&gt;genero&lt;/param&gt;
+            &lt;/type&gt;
+        &lt;/property&gt;
+        &lt;property insert=&quot;true&quot; name=&quot;paginas&quot; type=&quot;integer&quot; update=&quot;false&quot;&gt;
+            &lt;column length=&quot;255&quot; name=&quot;paginas&quot;/&gt;
+        &lt;/property&gt;
+        &lt;property insert=&quot;true&quot; name=&quot;titulo&quot; update=&quot;false&quot;&gt;
+            &lt;column length=&quot;255&quot; name=&quot;titulo&quot;/&gt;
+            &lt;type name=&quot;string&quot;&gt;
+                &lt;param name=&quot;org.hibernate.type.ParameterType.primaryKey&quot;&gt;false&lt;/param&gt;
+                &lt;param name=&quot;org.hibernate.type.ParameterType.dynamic&quot;&gt;true&lt;/param&gt;
+                &lt;param name=&quot;org.hibernate.type.ParameterType.returnedClass&quot;&gt;java.lang.String&lt;/param&gt;
+                &lt;param name=&quot;org.hibernate.type.ParameterType.accessType&quot;&gt;field&lt;/param&gt;
+                &lt;param name=&quot;org.hibernate.type.ParameterType.entityClass&quot;&gt;com.utn.demo.entities.Libro&lt;/param&gt;
+                &lt;param name=&quot;org.hibernate.type.ParameterType.propertyName&quot;&gt;titulo&lt;/param&gt;
+            &lt;/type&gt;
+        &lt;/property&gt;
+    &lt;/class&gt;
+&lt;/hibernate-mapping&gt;
+
+2023-10-04T10:34:05.319-03:00  INFO 9896 --- [    Test worker] .e.b.i.AdditionalJaxbMappingProducerImpl : Adding JAXB document mapping
+2023-10-04T10:34:05.389-03:00  INFO 9896 --- [    Test worker] org.hibernate.envers.boot                : HHH90005601: Envers-generated HBM mapping...
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
+&lt;hibernate-mapping xmlns=&quot;http://www.hibernate.org/xsd/orm/hbm&quot;&gt;
+    &lt;class table=&quot;libro_autores_AUD&quot; entity-name=&quot;libro_autores_AUD&quot;&gt;
+        &lt;composite-id name=&quot;originalId&quot;&gt;
+            &lt;key-many-to-one class=&quot;org.hibernate.envers.DefaultRevisionEntity&quot; name=&quot;REV&quot;&gt;
+                &lt;column name=&quot;REV&quot;/&gt;
+            &lt;/key-many-to-one&gt;
+            &lt;key-property name=&quot;Libro_id&quot;&gt;
+                &lt;column name=&quot;libro_id&quot;/&gt;
+                &lt;type name=&quot;long&quot;&gt;
+                    &lt;param name=&quot;org.hibernate.type.ParameterType.primaryKey&quot;&gt;false&lt;/param&gt;
+                    &lt;param name=&quot;org.hibernate.type.ParameterType.dynamic&quot;&gt;true&lt;/param&gt;
+                    &lt;param name=&quot;org.hibernate.type.ParameterType.returnedClass&quot;&gt;java.lang.Long&lt;/param&gt;
+                    &lt;param name=&quot;org.hibernate.type.ParameterType.accessType&quot;&gt;field&lt;/param&gt;
+                    &lt;param name=&quot;org.hibernate.type.ParameterType.entityClass&quot;&gt;com.utn.demo.entities.Libro&lt;/param&gt;
+                    &lt;param name=&quot;org.hibernate.type.ParameterType.propertyName&quot;&gt;id&lt;/param&gt;
+                &lt;/type&gt;
+            &lt;/key-property&gt;
+            &lt;key-property name=&quot;autores_id&quot;&gt;
+                &lt;column name=&quot;autores_id&quot;/&gt;
+                &lt;type name=&quot;long&quot;&gt;
+                    &lt;param name=&quot;org.hibernate.type.ParameterType.primaryKey&quot;&gt;false&lt;/param&gt;
+                    &lt;param name=&quot;org.hibernate.type.ParameterType.dynamic&quot;&gt;true&lt;/param&gt;
+                    &lt;param name=&quot;org.hibernate.type.ParameterType.returnedClass&quot;&gt;java.lang.Long&lt;/param&gt;
+                    &lt;param name=&quot;org.hibernate.type.ParameterType.accessType&quot;&gt;field&lt;/param&gt;
+                    &lt;param name=&quot;org.hibernate.type.ParameterType.entityClass&quot;&gt;com.utn.demo.entities.Autor&lt;/param&gt;
+                    &lt;param name=&quot;org.hibernate.type.ParameterType.propertyName&quot;&gt;id&lt;/param&gt;
+                &lt;/type&gt;
+            &lt;/key-property&gt;
+        &lt;/composite-id&gt;
+        &lt;property insert=&quot;true&quot; name=&quot;REVTYPE&quot; type=&quot;org.hibernate.envers.internal.entities.RevisionTypeType&quot; update=&quot;false&quot;/&gt;
+    &lt;/class&gt;
+&lt;/hibernate-mapping&gt;
+
+2023-10-04T10:34:05.393-03:00  INFO 9896 --- [    Test worker] .e.b.i.AdditionalJaxbMappingProducerImpl : Adding JAXB document mapping
+2023-10-04T10:34:05.454-03:00  INFO 9896 --- [    Test worker] org.hibernate.envers.boot                : HHH90005601: Envers-generated HBM mapping...
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
+&lt;hibernate-mapping auto-import=&quot;false&quot; xmlns=&quot;http://www.hibernate.org/xsd/orm/hbm&quot;&gt;
+    &lt;class discriminator-value=&quot;Persona&quot; table=&quot;persona_AUD&quot; entity-name=&quot;com.utn.demo.entities.Persona_AUD&quot; abstract=&quot;false&quot;&gt;
+        &lt;composite-id name=&quot;originalId&quot;&gt;
+            &lt;key-property name=&quot;id&quot;&gt;
+                &lt;column name=&quot;id&quot;/&gt;
+                &lt;type name=&quot;long&quot;&gt;
+                    &lt;param name=&quot;org.hibernate.type.ParameterType.primaryKey&quot;&gt;false&lt;/param&gt;
+                    &lt;param name=&quot;org.hibernate.type.ParameterType.dynamic&quot;&gt;true&lt;/param&gt;
+                    &lt;param name=&quot;org.hibernate.type.ParameterType.returnedClass&quot;&gt;java.lang.Long&lt;/param&gt;
+                    &lt;param name=&quot;org.hibernate.type.ParameterType.accessType&quot;&gt;field&lt;/param&gt;
+                    &lt;param name=&quot;org.hibernate.type.ParameterType.entityClass&quot;&gt;com.utn.demo.entities.Persona&lt;/param&gt;
+                    &lt;param name=&quot;org.hibernate.type.ParameterType.propertyName&quot;&gt;id&lt;/param&gt;
+                &lt;/type&gt;
+            &lt;/key-property&gt;
+            &lt;key-many-to-one class=&quot;org.hibernate.envers.DefaultRevisionEntity&quot; name=&quot;REV&quot;&gt;
+                &lt;column name=&quot;REV&quot;/&gt;
+            &lt;/key-many-to-one&gt;
+        &lt;/composite-id&gt;
+        &lt;property insert=&quot;true&quot; name=&quot;REVTYPE&quot; type=&quot;org.hibernate.envers.internal.entities.RevisionTypeType&quot; update=&quot;false&quot;/&gt;
+        &lt;property insert=&quot;true&quot; name=&quot;apellido&quot; update=&quot;false&quot;&gt;
+            &lt;column length=&quot;255&quot; name=&quot;apellido&quot;/&gt;
+            &lt;type name=&quot;string&quot;&gt;
+                &lt;param name=&quot;org.hibernate.type.ParameterType.primaryKey&quot;&gt;false&lt;/param&gt;
+                &lt;param name=&quot;org.hibernate.type.ParameterType.dynamic&quot;&gt;true&lt;/param&gt;
+                &lt;param name=&quot;org.hibernate.type.ParameterType.returnedClass&quot;&gt;java.lang.String&lt;/param&gt;
+                &lt;param name=&quot;org.hibernate.type.ParameterType.accessType&quot;&gt;field&lt;/param&gt;
+                &lt;param name=&quot;org.hibernate.type.ParameterType.entityClass&quot;&gt;com.utn.demo.entities.Persona&lt;/param&gt;
+                &lt;param name=&quot;org.hibernate.type.ParameterType.propertyName&quot;&gt;apellido&lt;/param&gt;
+            &lt;/type&gt;
+        &lt;/property&gt;
+        &lt;property insert=&quot;true&quot; name=&quot;dni&quot; type=&quot;integer&quot; update=&quot;false&quot;&gt;
+            &lt;column length=&quot;255&quot; name=&quot;dni&quot;/&gt;
+        &lt;/property&gt;
+        &lt;property insert=&quot;true&quot; name=&quot;nombre&quot; update=&quot;false&quot;&gt;
+            &lt;column length=&quot;255&quot; name=&quot;nombre&quot;/&gt;
+            &lt;type name=&quot;string&quot;&gt;
+                &lt;param name=&quot;org.hibernate.type.ParameterType.primaryKey&quot;&gt;false&lt;/param&gt;
+                &lt;param name=&quot;org.hibernate.type.ParameterType.dynamic&quot;&gt;true&lt;/param&gt;
+                &lt;param name=&quot;org.hibernate.type.ParameterType.returnedClass&quot;&gt;java.lang.String&lt;/param&gt;
+                &lt;param name=&quot;org.hibernate.type.ParameterType.accessType&quot;&gt;field&lt;/param&gt;
+                &lt;param name=&quot;org.hibernate.type.ParameterType.entityClass&quot;&gt;com.utn.demo.entities.Persona&lt;/param&gt;
+                &lt;param name=&quot;org.hibernate.type.ParameterType.propertyName&quot;&gt;nombre&lt;/param&gt;
+            &lt;/type&gt;
+        &lt;/property&gt;
+        &lt;property insert=&quot;true&quot; name=&quot;domicilio_id&quot; update=&quot;false&quot;&gt;
+            &lt;column name=&quot;fk_domicilio&quot;/&gt;
+            &lt;type name=&quot;long&quot;&gt;
+                &lt;param name=&quot;org.hibernate.type.ParameterType.primaryKey&quot;&gt;false&lt;/param&gt;
+                &lt;param name=&quot;org.hibernate.type.ParameterType.dynamic&quot;&gt;true&lt;/param&gt;
+                &lt;param name=&quot;org.hibernate.type.ParameterType.returnedClass&quot;&gt;java.lang.Long&lt;/param&gt;
+                &lt;param name=&quot;org.hibernate.type.ParameterType.accessType&quot;&gt;field&lt;/param&gt;
+                &lt;param name=&quot;org.hibernate.type.ParameterType.entityClass&quot;&gt;com.utn.demo.entities.Domicilio&lt;/param&gt;
+                &lt;param name=&quot;org.hibernate.type.ParameterType.propertyName&quot;&gt;id&lt;/param&gt;
+            &lt;/type&gt;
+        &lt;/property&gt;
+    &lt;/class&gt;
+&lt;/hibernate-mapping&gt;
+
+2023-10-04T10:34:05.455-03:00  INFO 9896 --- [    Test worker] .e.b.i.AdditionalJaxbMappingProducerImpl : Adding JAXB document mapping
+2023-10-04T10:34:05.558-03:00  INFO 9896 --- [    Test worker] org.hibernate.envers.boot                : HHH90005601: Envers-generated HBM mapping...
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
+&lt;hibernate-mapping xmlns=&quot;http://www.hibernate.org/xsd/orm/hbm&quot;&gt;
+    &lt;class table=&quot;Persona_Libro_AUD&quot; entity-name=&quot;Persona_Libro_AUD&quot;&gt;
+        &lt;composite-id name=&quot;originalId&quot;&gt;
+            &lt;key-many-to-one class=&quot;org.hibernate.envers.DefaultRevisionEntity&quot; name=&quot;REV&quot;&gt;
+                &lt;column name=&quot;REV&quot;/&gt;
+            &lt;/key-many-to-one&gt;
+            &lt;key-property name=&quot;Persona_id&quot;&gt;
+                &lt;column name=&quot;fk_persona&quot;/&gt;
+                &lt;type name=&quot;long&quot;&gt;
+                    &lt;param name=&quot;org.hibernate.type.ParameterType.primaryKey&quot;&gt;false&lt;/param&gt;
+                    &lt;param name=&quot;org.hibernate.type.ParameterType.dynamic&quot;&gt;true&lt;/param&gt;
+                    &lt;param name=&quot;org.hibernate.type.ParameterType.returnedClass&quot;&gt;java.lang.Long&lt;/param&gt;
+                    &lt;param name=&quot;org.hibernate.type.ParameterType.accessType&quot;&gt;field&lt;/param&gt;
+                    &lt;param name=&quot;org.hibernate.type.ParameterType.entityClass&quot;&gt;com.utn.demo.entities.Persona&lt;/param&gt;
+                    &lt;param name=&quot;org.hibernate.type.ParameterType.propertyName&quot;&gt;id&lt;/param&gt;
+                &lt;/type&gt;
+            &lt;/key-property&gt;
+            &lt;key-property name=&quot;libros_id&quot;&gt;
+                &lt;column name=&quot;id&quot;/&gt;
+                &lt;type name=&quot;long&quot;&gt;
+                    &lt;param name=&quot;org.hibernate.type.ParameterType.primaryKey&quot;&gt;false&lt;/param&gt;
+                    &lt;param name=&quot;org.hibernate.type.ParameterType.dynamic&quot;&gt;true&lt;/param&gt;
+                    &lt;param name=&quot;org.hibernate.type.ParameterType.returnedClass&quot;&gt;java.lang.Long&lt;/param&gt;
+                    &lt;param name=&quot;org.hibernate.type.ParameterType.accessType&quot;&gt;field&lt;/param&gt;
+                    &lt;param name=&quot;org.hibernate.type.ParameterType.entityClass&quot;&gt;com.utn.demo.entities.Libro&lt;/param&gt;
+                    &lt;param name=&quot;org.hibernate.type.ParameterType.propertyName&quot;&gt;id&lt;/param&gt;
+                &lt;/type&gt;
+            &lt;/key-property&gt;
+        &lt;/composite-id&gt;
+        &lt;property insert=&quot;true&quot; name=&quot;REVTYPE&quot; type=&quot;org.hibernate.envers.internal.entities.RevisionTypeType&quot; update=&quot;false&quot;/&gt;
+    &lt;/class&gt;
+&lt;/hibernate-mapping&gt;
+
+2023-10-04T10:34:05.576-03:00  INFO 9896 --- [    Test worker] .e.b.i.AdditionalJaxbMappingProducerImpl : Adding JAXB document mapping
+2023-10-04T10:34:05.640-03:00  INFO 9896 --- [    Test worker] org.hibernate.envers.boot                : HHH90005601: Envers-generated HBM mapping...
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
+&lt;hibernate-mapping auto-import=&quot;false&quot; xmlns=&quot;http://www.hibernate.org/xsd/orm/hbm&quot;&gt;
+    &lt;class discriminator-value=&quot;Domicilio&quot; table=&quot;domicilio_AUD&quot; entity-name=&quot;com.utn.demo.entities.Domicilio_AUD&quot; abstract=&quot;false&quot;&gt;
+        &lt;composite-id name=&quot;originalId&quot;&gt;
+            &lt;key-property name=&quot;id&quot;&gt;
+                &lt;column name=&quot;id&quot;/&gt;
+                &lt;type name=&quot;long&quot;&gt;
+                    &lt;param name=&quot;org.hibernate.type.ParameterType.primaryKey&quot;&gt;false&lt;/param&gt;
+                    &lt;param name=&quot;org.hibernate.type.ParameterType.dynamic&quot;&gt;true&lt;/param&gt;
+                    &lt;param name=&quot;org.hibernate.type.ParameterType.returnedClass&quot;&gt;java.lang.Long&lt;/param&gt;
+                    &lt;param name=&quot;org.hibernate.type.ParameterType.accessType&quot;&gt;field&lt;/param&gt;
+                    &lt;param name=&quot;org.hibernate.type.ParameterType.entityClass&quot;&gt;com.utn.demo.entities.Domicilio&lt;/param&gt;
+                    &lt;param name=&quot;org.hibernate.type.ParameterType.propertyName&quot;&gt;id&lt;/param&gt;
+                &lt;/type&gt;
+            &lt;/key-property&gt;
+            &lt;key-many-to-one class=&quot;org.hibernate.envers.DefaultRevisionEntity&quot; name=&quot;REV&quot;&gt;
+                &lt;column name=&quot;REV&quot;/&gt;
+            &lt;/key-many-to-one&gt;
+        &lt;/composite-id&gt;
+        &lt;property insert=&quot;true&quot; name=&quot;REVTYPE&quot; type=&quot;org.hibernate.envers.internal.entities.RevisionTypeType&quot; update=&quot;false&quot;/&gt;
+        &lt;property insert=&quot;true&quot; name=&quot;calle&quot; update=&quot;false&quot;&gt;
+            &lt;column length=&quot;255&quot; name=&quot;calle&quot;/&gt;
+            &lt;type name=&quot;string&quot;&gt;
+                &lt;param name=&quot;org.hibernate.type.ParameterType.primaryKey&quot;&gt;false&lt;/param&gt;
+                &lt;param name=&quot;org.hibernate.type.ParameterType.dynamic&quot;&gt;true&lt;/param&gt;
+                &lt;param name=&quot;org.hibernate.type.ParameterType.returnedClass&quot;&gt;java.lang.String&lt;/param&gt;
+                &lt;param name=&quot;org.hibernate.type.ParameterType.accessType&quot;&gt;field&lt;/param&gt;
+                &lt;param name=&quot;org.hibernate.type.ParameterType.entityClass&quot;&gt;com.utn.demo.entities.Domicilio&lt;/param&gt;
+                &lt;param name=&quot;org.hibernate.type.ParameterType.propertyName&quot;&gt;calle&lt;/param&gt;
+            &lt;/type&gt;
+        &lt;/property&gt;
+        &lt;property insert=&quot;true&quot; name=&quot;numero&quot; type=&quot;integer&quot; update=&quot;false&quot;&gt;
+            &lt;column length=&quot;255&quot; name=&quot;numero&quot;/&gt;
+        &lt;/property&gt;
+        &lt;property insert=&quot;true&quot; name=&quot;localidad_id&quot; update=&quot;false&quot;&gt;
+            &lt;column name=&quot;fk_localidad&quot;/&gt;
+            &lt;type name=&quot;long&quot;&gt;
+                &lt;param name=&quot;org.hibernate.type.ParameterType.primaryKey&quot;&gt;false&lt;/param&gt;
+                &lt;param name=&quot;org.hibernate.type.ParameterType.dynamic&quot;&gt;true&lt;/param&gt;
+                &lt;param name=&quot;org.hibernate.type.ParameterType.returnedClass&quot;&gt;java.lang.Long&lt;/param&gt;
+                &lt;param name=&quot;org.hibernate.type.ParameterType.accessType&quot;&gt;field&lt;/param&gt;
+                &lt;param name=&quot;org.hibernate.type.ParameterType.entityClass&quot;&gt;com.utn.demo.entities.Localidad&lt;/param&gt;
+                &lt;param name=&quot;org.hibernate.type.ParameterType.propertyName&quot;&gt;id&lt;/param&gt;
+            &lt;/type&gt;
+        &lt;/property&gt;
+    &lt;/class&gt;
+&lt;/hibernate-mapping&gt;
+
+2023-10-04T10:34:05.641-03:00  INFO 9896 --- [    Test worker] .e.b.i.AdditionalJaxbMappingProducerImpl : Adding JAXB document mapping
+2023-10-04T10:34:05.703-03:00  INFO 9896 --- [    Test worker] org.hibernate.envers.boot                : HHH90005601: Envers-generated HBM mapping...
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
+&lt;hibernate-mapping auto-import=&quot;false&quot; xmlns=&quot;http://www.hibernate.org/xsd/orm/hbm&quot;&gt;
+    &lt;class discriminator-value=&quot;Localidad&quot; table=&quot;localidad_AUD&quot; entity-name=&quot;com.utn.demo.entities.Localidad_AUD&quot; abstract=&quot;false&quot;&gt;
+        &lt;composite-id name=&quot;originalId&quot;&gt;
+            &lt;key-property name=&quot;id&quot;&gt;
+                &lt;column name=&quot;id&quot;/&gt;
+                &lt;type name=&quot;long&quot;&gt;
+                    &lt;param name=&quot;org.hibernate.type.ParameterType.primaryKey&quot;&gt;false&lt;/param&gt;
+                    &lt;param name=&quot;org.hibernate.type.ParameterType.dynamic&quot;&gt;true&lt;/param&gt;
+                    &lt;param name=&quot;org.hibernate.type.ParameterType.returnedClass&quot;&gt;java.lang.Long&lt;/param&gt;
+                    &lt;param name=&quot;org.hibernate.type.ParameterType.accessType&quot;&gt;field&lt;/param&gt;
+                    &lt;param name=&quot;org.hibernate.type.ParameterType.entityClass&quot;&gt;com.utn.demo.entities.Localidad&lt;/param&gt;
+                    &lt;param name=&quot;org.hibernate.type.ParameterType.propertyName&quot;&gt;id&lt;/param&gt;
+                &lt;/type&gt;
+            &lt;/key-property&gt;
+            &lt;key-many-to-one class=&quot;org.hibernate.envers.DefaultRevisionEntity&quot; name=&quot;REV&quot;&gt;
+                &lt;column name=&quot;REV&quot;/&gt;
+            &lt;/key-many-to-one&gt;
+        &lt;/composite-id&gt;
+        &lt;property insert=&quot;true&quot; name=&quot;REVTYPE&quot; type=&quot;org.hibernate.envers.internal.entities.RevisionTypeType&quot; update=&quot;false&quot;/&gt;
+        &lt;property insert=&quot;true&quot; name=&quot;denominacion&quot; update=&quot;false&quot;&gt;
+            &lt;column length=&quot;255&quot; name=&quot;denominacion&quot;/&gt;
+            &lt;type name=&quot;string&quot;&gt;
+                &lt;param name=&quot;org.hibernate.type.ParameterType.primaryKey&quot;&gt;false&lt;/param&gt;
+                &lt;param name=&quot;org.hibernate.type.ParameterType.dynamic&quot;&gt;true&lt;/param&gt;
+                &lt;param name=&quot;org.hibernate.type.ParameterType.returnedClass&quot;&gt;java.lang.String&lt;/param&gt;
+                &lt;param name=&quot;org.hibernate.type.ParameterType.accessType&quot;&gt;field&lt;/param&gt;
+                &lt;param name=&quot;org.hibernate.type.ParameterType.entityClass&quot;&gt;com.utn.demo.entities.Localidad&lt;/param&gt;
+                &lt;param name=&quot;org.hibernate.type.ParameterType.propertyName&quot;&gt;denominacion&lt;/param&gt;
+            &lt;/type&gt;
+        &lt;/property&gt;
+    &lt;/class&gt;
+&lt;/hibernate-mapping&gt;
+
+2023-10-04T10:34:05.716-03:00  INFO 9896 --- [    Test worker] .e.b.i.AdditionalJaxbMappingProducerImpl : Adding JAXB document mapping
+2023-10-04T10:34:05.805-03:00  INFO 9896 --- [    Test worker] org.hibernate.envers.boot                : HHH90005601: Envers-generated HBM mapping...
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
+&lt;hibernate-mapping auto-import=&quot;false&quot; xmlns=&quot;http://www.hibernate.org/xsd/orm/hbm&quot;&gt;
+    &lt;class table=&quot;REVINFO&quot; name=&quot;org.hibernate.envers.DefaultRevisionEntity&quot; entity-name=&quot;org.hibernate.envers.DefaultRevisionEntity&quot;&gt;
+        &lt;id name=&quot;id&quot; type=&quot;integer&quot;&gt;
+            &lt;column name=&quot;REV&quot;/&gt;
+            &lt;generator class=&quot;native&quot;/&gt;
+        &lt;/id&gt;
+        &lt;property insert=&quot;true&quot; name=&quot;timestamp&quot; type=&quot;long&quot; update=&quot;false&quot;&gt;
+            &lt;column name=&quot;REVTSTMP&quot;/&gt;
+        &lt;/property&gt;
+    &lt;/class&gt;
+&lt;/hibernate-mapping&gt;
+
+2023-10-04T10:34:05.939-03:00  INFO 9896 --- [    Test worker] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-04T10:34:07.213-03:00  INFO 9896 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Hibernate: drop table if exists autor cascade 
+Hibernate: drop table if exists autor_aud cascade 
+Hibernate: drop table if exists domicilio cascade 
+Hibernate: drop table if exists domicilio_aud cascade 
+Hibernate: drop table if exists libro cascade 
+Hibernate: drop table if exists libro_aud cascade 
+Hibernate: drop table if exists libro_autores cascade 
+Hibernate: drop table if exists libro_autores_aud cascade 
+Hibernate: drop table if exists localidad cascade 
+Hibernate: drop table if exists localidad_aud cascade 
+Hibernate: drop table if exists persona cascade 
+Hibernate: drop table if exists persona_aud cascade 
+Hibernate: drop table if exists persona_libro_aud cascade 
+Hibernate: drop table if exists revinfo cascade 
+Hibernate: create table autor (id bigint generated by default as identity, biografia varchar(1500), apellido varchar(255), nombre varchar(255), primary key (id))
+Hibernate: create table autor_aud (rev integer not null, revtype tinyint, id bigint not null, biografia varchar(1500), apellido varchar(255), nombre varchar(255), primary key (rev, id))
+Hibernate: create table domicilio (numero integer, fk_localidad bigint not null, id bigint generated by default as identity, calle varchar(255), primary key (id))
+Hibernate: create table domicilio_aud (numero integer, rev integer not null, revtype tinyint, fk_localidad bigint, id bigint not null, calle varchar(255), primary key (rev, id))
+Hibernate: create table libro (fecha integer, paginas integer, fk_persona bigint, id bigint generated by default as identity, genero varchar(255), titulo varchar(255), primary key (id))
+Hibernate: create table libro_aud (fecha integer, paginas integer, rev integer not null, revtype tinyint, id bigint not null, genero varchar(255), titulo varchar(255), primary key (rev, id))
+Hibernate: create table libro_autores (autores_id bigint not null, libro_id bigint not null)
+Hibernate: create table libro_autores_aud (rev integer not null, revtype tinyint, autores_id bigint not null, libro_id bigint not null, primary key (rev, autores_id, libro_id))
+Hibernate: create table localidad (id bigint generated by default as identity, denominacion varchar(255), primary key (id))
+Hibernate: create table localidad_aud (rev integer not null, revtype tinyint, id bigint not null, denominacion varchar(255), primary key (rev, id))
+Hibernate: create table persona (dni integer, fk_domicilio bigint unique, id bigint generated by default as identity, apellido varchar(255), nombre varchar(255), primary key (id))
+Hibernate: create table persona_aud (dni integer, rev integer not null, revtype tinyint, fk_domicilio bigint, id bigint not null, apellido varchar(255), nombre varchar(255), primary key (rev, id))
+Hibernate: create table persona_libro_aud (rev integer not null, revtype tinyint, fk_persona bigint not null, id bigint not null, primary key (rev, fk_persona, id))
+Hibernate: create table revinfo (rev integer generated by default as identity, revtstmp bigint, primary key (rev))
+Hibernate: alter table if exists autor_aud add constraint FK66yvqmj8a83bdemls51f1i88q foreign key (rev) references revinfo
+Hibernate: alter table if exists domicilio add constraint FKsq48s35e5o185ajo3mloiqxjk foreign key (fk_localidad) references localidad
+Hibernate: alter table if exists domicilio_aud add constraint FKm79veimsf377b9nya4vq2m6ni foreign key (rev) references revinfo
+Hibernate: alter table if exists libro add constraint FKhu6ud2c4xjag8vlhbe00ywwdt foreign key (fk_persona) references persona
+Hibernate: alter table if exists libro_aud add constraint FKrb8yl5fa520c2sh8kmevqca5e foreign key (rev) references revinfo
+Hibernate: alter table if exists libro_autores add constraint FK4n6u17jdtrjai8yitxsmm7tly foreign key (autores_id) references autor
+Hibernate: alter table if exists libro_autores add constraint FKsoheqe18ertlksjno9y33x0am foreign key (libro_id) references libro
+Hibernate: alter table if exists libro_autores_aud add constraint FKm7nhrof2ybxa1bw3bw5w4ml96 foreign key (rev) references revinfo
+Hibernate: alter table if exists localidad_aud add constraint FKoh2ef345ybtdbdu0iogiwjdp3 foreign key (rev) references revinfo
+Hibernate: alter table if exists persona add constraint FKdvcd83wmvj0mwmbu3kyoisobn foreign key (fk_domicilio) references domicilio
+Hibernate: alter table if exists persona_aud add constraint FKpxigs3r1ey298w0hrbvh55ple foreign key (rev) references revinfo
+Hibernate: alter table if exists persona_libro_aud add constraint FK77g2ku68r3f2dtnjpne9vqie foreign key (rev) references revinfo
+2023-10-04T10:34:07.315-03:00  INFO 9896 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-04T10:34:07.913-03:00  WARN 9896 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-04T10:34:10.803-03:00  INFO 9896 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:./betodb'
+2023-10-04T10:34:11.028-03:00  INFO 9896 --- [    Test worker] com.utn.demo.EjApiRestApplicationTests   : Started EjApiRestApplicationTests in 10.397 seconds (process running for 11.932)
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 8.3</a> at 4 oct 2023 10:34:12</p>
+</div>
+</div>
+</body>
+</html>
